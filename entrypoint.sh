@@ -28,7 +28,7 @@ ${DDCLIENT_CONF_HOST:-@}" > /etc/ddclient.conf
       fi
     done
 
-    /usr/sbin/ddclient
+    ddclient
 else
     "$@"
 fi
